@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 71px 0 92px;
+      .nav-list {
+    display: flex;
+    width: 555px;
+    justify-content: space-between;
+      &__link {
+    color: get-color("nav");
+        &:hover, &:focus {
+          color: get-color("hover");
+        }
+  }
+  }
+  }
+  
+  
+  
+  
+  
+  

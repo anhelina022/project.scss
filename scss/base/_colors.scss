@@ -1,0 +1,17 @@
+// $colorHover: #03A9F4;
+// $navColor: #7D7D7D;
+// $secondaryColor: #B4AD9E;
+// $primaryColor: #626262;
+
+$colors:(
+    "hover":#03A9F4,
+    "nav":#7D7D7D,
+    "secondary": #B4AD9E,
+    "primary":#626262,
+);
+
+// map-get ($colors, "hover"/"nav"...)
+
+@function get-color($key) {
+    @return map-get($colors, $key);
+}
